@@ -1,0 +1,62 @@
+/* defaults */
+*,*::after,*::before{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+li{
+    list-style:none;
+}
+/* defaultsend */
+body{
+    background-color:grey;
+    display:flex;
+    padding:30px;
+    height:100vh;
+}
+.users{
+    flex:1;
+    background-color:whitesmoke;
+    padding:20px;
+    overflow: auto;
+}
+.users li{
+    padding:4px 0px;
+    cursor:pointer;
+    border-bottom:5px ridge rgba(0, 0, 0, 0.486);
+}
+.content{
+    flex:3;
+    background-color:wheat;
+    display:flex;
+    flex-direction: column;
+    padding:30px 0px 0px 30px;
+}
+.heading{
+    flex:1;
+}
+.friendsContent{
+    flex:5;
+    display:flex;
+    
+   
+}
+.friendsContent>*{
+    flex:1;
+}
+.friendsOfFriends p{
+    color:red;
+    font-size:17px;
+    text-decoration:underline;
+}
+.active{
+    background-color:grey;
+}
+.friendsContent li{
+    padding-left:20px;
+}
+.friendsContent h3{
+    font-size:20px;
+    text-decoration:underline;
+    margin-bottom:10px;
+}
